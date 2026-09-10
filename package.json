@@ -1,0 +1,16 @@
+{
+  "name": "zeg-site-monitor",
+  "version": "1.0.0",
+  "description": "Daily monitoring for zegtrust.org: payment flow, defacement, speed, uptime digest",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "stripe": "^17.0.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "resend": "^4.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
