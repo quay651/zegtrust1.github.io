@@ -1,4 +1,4 @@
-rw-r--r-- 1 claude ubuntu 8245 Sep  1 23:59 /mnt/user-data/outputs/academy-backend/api/stripe-webhook.js
+import Stripe from "stripe";
 // api/stripe-webhook.js
 // Deploy this on Vercel (free tier is fine). This is the piece that makes
 // payment actually unlock the course — right now nothing does that.
