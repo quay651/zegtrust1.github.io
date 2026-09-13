@@ -1,4 +1,7 @@
 import Stripe from "stripe";
+import { createClient } from "@supabase/supabase-js";
+
+export async function runTransactionCheck(env) {
 // api/stripe-webhook.js
 // Deploy this on Vercel (free tier is fine). This is the piece that makes
 // payment actually unlock the course — right now nothing does that.
